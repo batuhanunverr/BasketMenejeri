@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:orientation="horizontal"
+    android:weightSum="7"
+    android:background="@color/colorblack"
+    >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/macagit"
+
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/squatadaptorname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/colorwhite"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/squatadaptorposition"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="right|center_vertical"
+        android:layout_weight="1"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/squatadaptorage"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/squatadaptorvalue"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/squatadaptoroverall"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/teklifbutton"
+    android:text="Teklif"/>
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    >
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:gravity=""
+        android:layout_centerHorizontal="true"
+        android:text=""
+        />
+
+
+    <ImageView
+        android:id="@+id/triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_tab_layout_height"
+        android:layout_above="@id/wheel"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        app:srcCompat="@drawable/triangle" />
+
+    <ImageView
+        android:id="@+id/wheel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/roulette"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/spinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="DÖNDÜR (1m)"
+        android:layout_marginBottom="15dp"
+
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:layout_weight="8">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#808080"
+        android:id="@+id/redbutton"
+        android:textColor="@color/colorwhite"
+        android:text="RED x2"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/blackbutton"
+        android:background="#808080"
+        android:text="BLACK x2"
+        android:textSize="20dp"
+        android:textColor="@color/colorwhite"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/greenbuutton"
+        android:background="#808080"
+        android:text="GREEN x20"
+        android:textSize="20dp"
+        android:textColor="@color/colorwhite"/>
+</LinearLayout>
+
+</LinearLayout>

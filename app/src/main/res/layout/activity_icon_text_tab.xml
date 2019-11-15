@@ -1,0 +1,199 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aplan"
+    android:orientation="horizontal"
+    app:popupTheme="@style/AlertDialog.AppCompat"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="vertical"
+
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+
+            android:layout_weight="9"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorblack"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/oneteamcoloriw"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/custom_tab_layout_height"
+                    android:background="@color/cardview_dark_background"
+                  android:src="@drawable/gs"
+
+                    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="KADRO"
+    android:textColor="@color/colorwhite"
+    android:background="@color/cardview_dark_background"
+    android:id="@+id/icontexttabsquatbutton"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:background="@color/colorblack">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1">
+
+
+                </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:id="@+id/haftasay"
+                      android:layout_height="wrap_content"
+                      android:text="DENEME"
+                      android:gravity="center"
+                      android:textColor="@color/colororange"
+                      android:textSize="15dp"/>
+              </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="5"
+                android:background="@color/cardview_dark_background"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity=""
+                    android:layout_weight="1"
+
+                    android:src="@drawable/tab_money" />
+
+                <TextView
+                    android:id="@+id/teammoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/cardview_dark_background"
+                    android:gravity="center"
+                    android:text="250,000"
+
+                    android:textColor="@color/colororange"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:weightSum="4"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/leaguetablelist"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_tab_layout_height"
+                android:layout_weight="1"
+                android:src="@drawable/tra"
+                android:scaleType="fitCenter"
+                android:layout_gravity="bottom"
+                android:id="@+id/trasferpagebutton"
+                />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_tab_layout_height"
+                android:layout_weight="1"
+                android:src="@drawable/calendar"
+                android:scaleType="fitCenter"
+                android:layout_gravity="bottom"
+                android:id="@+id/icontexttabcalendarbutton"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_tab_layout_height"
+                android:layout_weight="1"
+                android:id="@+id/roulettebutton"
+                android:src="@drawable/moneyy"
+                android:scaleType="fitCenter"
+                android:layout_gravity="bottom"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_tab_layout_height"
+                android:layout_weight="1"
+                android:src="@drawable/macagit"
+                android:id="@+id/gamebutton"
+                android:scaleType="fitCenter"
+                android:layout_gravity="bottom"/>
+
+            >
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

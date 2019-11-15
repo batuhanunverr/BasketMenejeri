@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:background="@color/colorwhite"
+
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/adaptorteam1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="3"
+            android:background="@color/colorgrey"
+            android:textColor="@color/colorwhite"
+            android:textSize="15dp"
+            tools:text="Team1" />
+
+        <TextView
+            android:id="@+id/adaptorwinn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:layout_gravity="center"
+
+            android:text="W"
+            android:layout_weight="3"
+            android:background="@color/colorgrey1"
+            android:textColor="@color/colorwhite"
+            android:padding="5dp"
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/adaptorteam2"
+            android:layout_width="0dp"
+            android:gravity="right|center_vertical"
+            android:layout_height="match_parent"
+            android:background="@color/colorgrey"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:text="Team2"
+            android:textColor="@color/colorwhite"
+            android:textSize="15dp" />
+
+    </LinearLayout>>
+
+</LinearLayout>

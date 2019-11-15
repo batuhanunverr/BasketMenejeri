@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basketmenejeri">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/basketball"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Tactic_Page" />
+        <activity android:name=".Taktik_Page" />
+        <activity
+            android:name=".GamePageActivity"
+            android:label="@string/title_activity_game_page" />
+        <activity android:name=".CalanderPage" />
+        <activity android:name=".GifPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewCareerPage" />
+        <activity
+            android:name=".IconTextTabActivity"
+            android:label="@string/title_activity_icon_text_tabs"
+            android:parentActivityName=".NewCareerPage" />
+        <activity android:name=".TransferPage" />
+        <activity android:name=".LoginP" />
+        <activity android:name=".SquatPage" />
+        <activity android:name=".RoulettePage"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewCareerPage"
+    android:background="@drawable/aplan"
+    android:layout_weight="8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:background="@drawable/buttonshapex"
+            android:cropToPadding="false"
+            android:text="Adınızı Gİrin"
+            android:textColor="@color/colorblack"
+            android:textSize="15dp"
+            android:layout_weight="1"
+
+
+            />
+
+        <EditText
+            android:id="@+id/newcareeretname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:layout_weight="1"
+            android:background="@drawable/buttonshapex"
+            android:hint="            Adınız"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorblack" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:background="@drawable/buttonshapex"
+            android:cropToPadding="false"
+            android:text="Soyadınızı Gİrin"
+            android:textColor="@color/colorblack"
+            android:textSize="15dp"
+            android:layout_weight="1"
+
+
+            />
+
+        <EditText
+            android:id="@+id/newcareeretsurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/buttonshapex"
+            android:hint="         Soyadınız"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:textColor="@color/colorblack"
+            android:textColorHint="@color/colorblack"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:background="@drawable/buttonshapex"
+            android:cropToPadding="false"
+            android:text="Ülkenizi Seçin"
+            android:textColor="@color/colorblack"
+            android:textSize="15dp"
+            android:layout_weight="1"
+
+
+            />
+
+        <Spinner
+            android:id="@+id/newcareerspinnercountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/buttonshapex"
+android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:background="@drawable/buttonshapex"
+            android:cropToPadding="false"
+            android:text="Takım Seçin"
+            android:textColor="@color/colorblack"
+            android:textSize="15dp"
+            android:layout_weight="1"
+
+
+            />
+
+        <Spinner
+            android:id="@+id/newcareerspinnerclup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/buttonshapex"
+            android:layout_weight="1"
+
+
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/newcareernextbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/buttonshapex"
+            android:cropToPadding="false"
+            android:text="İlerle"
+
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>
